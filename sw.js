@@ -1,10 +1,20 @@
 var cacheName = 'hello-pwa';
 var filesToCache = [
     // L'ensemble de tes fichiers
+    '/page1.html',
+    '/page2.html',
+    '/page3.html',
     '/',
     '/index.html',
-    '/css/style.css',
-    '/js/main.js'
+    '/js/main.js',
+    '/images/16.png',
+    '/images/128.png',
+    '/images/144.png',
+    '/images/152.png',
+    '/images/192.png',
+    '/images/256.png',
+    '/images/512.png',
+    '/manifest.json'
 ];
 
 // Met en cache le contenu de ton application
